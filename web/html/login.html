@@ -66,7 +66,7 @@
     const rightColor = RandomUtil.randomIntRange(0xFFFFFF / 2, 0xDDDDDD).toString(16);
     const deg = RandomUtil.randomIntRange(0, 360);
     const background = `linear-gradient(${deg}deg, #${leftColor} 10%, #${rightColor} 100%)`;
-    document.querySelector('#app').style.background = "url('https://i.328888.xyz/2023/03/08/S3xdL.jpeg')";
+    document.querySelector('#app').style.background = "url('https://i.328888.xyz/2023/03/08/S3xdL.jpeg') 100%";
     const app = new Vue({
         delimiters: ['[[', ']]'],
         el: '#app',
